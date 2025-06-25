@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Sevgilim İçin Özel</title>
+<style>
+  body {
+    background: linear-gradient(135deg, #fceabb, #f8b500);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #3a1f0b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
+  h1 {
+    font-size: 3em;
+    margin-bottom: 0.2em;
+  }
+  p {
+    font-size: 1.4em;
+    max-width: 600px;
+    line-height: 1.6;
+  }
+  audio {
+    margin-top: 40px;
+    outline: none;
+  }
+  footer {
+    margin-top: 50px;
+    font-size: 0.9em;
+    color: #7a4e1c;
+  }
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 2em;
+    }
+    p {
+      font-size: 1.1em;
+    }
+  }
+</style>
+</head>
+<body>
+
+<h1>Sevgilim,</h1>
+<p>
+  Sen benim için hayatın en güzel anlamısın.<br>
+  Her an seni düşündüğümde kalbim hızla çarpıyor,<br>
+  senin için ne yapsam az,<br>
+  her zorluğa göğüs germeye,<br>
+  her engeli aşmaya hazırım.<br>
+  Çünkü seni sevmek, hayatın en gerçek mucizesi benim için.<br>
+  İyi ki varsın, iyi ki benimlesin.
+</p>
+
+<audio controls autoplay loop>
+  <source src="https://cdn.pixabay.com/download/audio/2022/03/21/audio_9258d3bb63.mp3?filename=can-ozan-toprak-yagmura-5484.mp3" type="audio/mpeg" />
+  Tarayıcınız audio elementini desteklemiyor.
+</audio>
+
+<footer>
+  Can Ozan - Toprak Yağmura
+</footer>
+
+</body>
+</html>
